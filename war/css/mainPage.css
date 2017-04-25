@@ -1,0 +1,114 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #72A0C1;
+    font-family: Helvetica;
+}
+
+input {
+    border: 0;
+    padding: 12px;
+    font-size: 18px;
+}
+
+
+input {
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	/*background-color: #EAEAEA;*/
+	background-color:green;
+	background: -moz-linear-gradient(top, #FFF, #EAEAEA);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFF), color-stop(1.0, #EAEAEA));
+	border: 1px solid #CACACA; 
+	/*color: #444;*/
+	color: blue; 
+	font-size: 1em; 
+	font-weight: bold;
+	margin: 4 0 4px; 
+	padding: 5px 9px; 
+	width:6em;
+}
+
+input:focus {
+	background: #FFF;
+	-webkit-box-shadow: 0 0 25px #CCC;
+	-moz-box-shadow: 0 0 25px #ccc; 
+	box-shadow: 0 0 25px #CCC; 
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05); 
+	transform: scale(1.05);
+	font-weight: bold;
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.login
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 100%;
+}
+
+.login input
+{
+	display:none;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	background-color:none;
+	background: -moz-linear-gradient(top, #FFF, #EAEAEA);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFF), color-stop(1.0, #EAEAEA));
+	border: 1px solid #CACACA; 
+	color: #4CBB17;
+	text-align: center; 
+	font-size: 1em; 
+	font-weight: bold;
+	margin: 4 0 4px; 
+	padding: 5px 9px; 
+	width:6em;
+}
+.login input:focus {
+	background: #FFF;
+	-webkit-box-shadow: 0 0 25px #CCC;
+	-moz-box-shadow: 0 0 25px #ccc; 
+	box-shadow: 0 0 25px #CCC; 
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05); 
+	transform: scale(1.05);
+	font-weight: bold;
+}
+
+#navBar {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Padding: top right bottom left*/
+.themeCol {
+	padding: 0px 20px 0px 20px;
+}
+	
+
+.title {
+	padding: 0px 0px 30px 0px;
+}
+
+.controlBar {
+	padding-top: 30px;
+}
